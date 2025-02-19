@@ -1,0 +1,39 @@
+(1)markdown
+<div class="markdown-content" style="display: none;">--text--</div>
+(2)csv
+<div class="csv-content" style="display: none;">--csv data---</div>    
+<div class="csv-content type1" style="display: none;">--csv data--</div>
+<div class="csv-content type2" style="display: none;">--csv data--</div>
+(3)mermaid
+<div class="mermaid-content" style="display: none;">--code--</div>       
+(4)plantuml
+<div class="plantuml-content" style="display: none;">--code--</div>
+(5)Chart.js
+<canvas id="chartName"  style="width: 400px; height:300px">
+    <script>
+        const chart1 = () =>{ 
+            const div = document.createElement('div');
+            const ctx = document.getElementById('chartName').getContext('2d');
+            const myChart = new Chart(ctx, {
+                ---script of chart----
+                });
+                return div;
+                };
+        document.getElementById('chartName').appendChild(chartName());
+    </script>
+</canvas>
+(6)D3.js
+<div id="d3chartName"></div>
+<script>
+    const d3chartName= () => {
+    ---script of d3----
+    }
+    document.getElementById('d3chartName').appendChild(d3chartName());
+</script>
+(7)Three.js
+<div id="threeName"></div>
+const threeName = () =>{
+    ---script of three.js---
+};
+document.getElementById('threeName').appendChild(threeName());
+</script>    
