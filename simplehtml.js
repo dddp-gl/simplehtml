@@ -1,5 +1,11 @@
 // Initialize Mermaid
-mermaid.initialize({startOnLoad:true}); 
+mermaid.initialize({
+    startOnLoad:true,
+    themeVariables: {
+      fontSize: '12px', // 図全体の文字サイズ
+      edgeLabelFontSize: '12px' // エッジラベルの文字サイズ
+    }
+});
 
 // Intialize Markdown-it
 const md = window.markdownit();
