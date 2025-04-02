@@ -113,14 +113,14 @@ function makeindex() {
             n3=0;
             const id = 'heading- '+ n;
             content.id = id;
-            indexText +='&emsp;&emsp;<a class="h1" href="#'+id+'">'+n2+'</a>. '+content.textContent+'.<br>';
+            indexText +='&emsp;&emsp;<a class="h1" href="#'+id+'">'+'('+n2+')'+'</a>&emsp;'+content.textContent+'.<br>';
         } 
         if(content.nodeName === "H3"){
             n ++;
             n3 ++;
             const id = 'heading- '+ n;
             content.id = id;
-            indexText +='&emsp;&emsp;&emsp;<a class="h1" href="#'+id+'">'+n2+'. '+n3+'</a>. '+content.textContent+'.<br>';
+            indexText +='&emsp;&emsp;&emsp;<a class="h1" href="#'+id+'">'+'('+n2+'. '+n3+')</a>&emsp;'+content.textContent+'.<br>';
         }
         
     });
