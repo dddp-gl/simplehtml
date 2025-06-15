@@ -58,7 +58,7 @@ p {
 code {
     margin: 2px 2px;
     padding: 1px 5px;
-    white-space: pre-wrap;
+    white-space: normal;
     background-color: #f8f8f8;
     border-radius: 3px;
     color: #4271ae !important;
@@ -68,7 +68,7 @@ code {
 pre code {
     margin: 0;
     padding: 0;
-    white-space: pre;
+    white-space: pre-wrap;
     border: none;
     background-color: #f0f0f0; 
     color: #4271ae !important;
