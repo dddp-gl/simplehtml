@@ -58,7 +58,7 @@ p {
 code {
     margin: 2px 2px;
     padding: 1px 5px;
-    white-space: nowrap;
+    white-space: pre-wrap;
     background-color: #f8f8f8;
     border-radius: 3px;
     color: #4271ae !important;
